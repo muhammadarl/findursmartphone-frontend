@@ -18,9 +18,9 @@
                 <router-link class="text-m hover:text-gray-700 duration-500 capitalize font-semi-light"
                     to="/smartphones">smartphone</router-link>
             </li>
-            <button
+            <a href="http://sleepy-sea-83124.herokuapp.com/register"
                 class="bg-gray-800 text-white font-bold capitalize py-2 px-6 rounded duration-500 mx-4 hover:bg-gray-700">become
-                partner</button>
+                partner</a>
         </ul>
     </nav>
 </template>
