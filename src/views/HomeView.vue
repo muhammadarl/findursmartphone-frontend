@@ -9,8 +9,7 @@
     <div class="container section-recommendation mx-auto py-20">
       <div class="title-subtitle flex-col mb-16">
         <h1 class="font-bold text-4xl uppercase">recommendation</h1>
-        <h2 class="font-semibold text-lg capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-          eligendi?</h2>
+        <h2 class="font-semibold text-lg capitalize">recommendation smartphone yang telah disediakan find ur smartphone</h2>
       </div>
       <div class="content-recommendation my-5">
         <swiper :slides-per-view="4" :space-between="20">
@@ -23,8 +22,7 @@
     <div class="container section-trending mx-auto py-20">
       <div class="title-subtitle flex-col mb-16">
         <h1 class="font-bold text-4xl uppercase">trending</h1>
-        <h2 class="font-semibold text-lg capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-          eligendi?</h2>
+        <h2 class="font-semibold text-lg capitalize">smartphone yang paling banyak dicari</h2>
       </div>
       <div class="content-trending my-5">
         <swiper :slides-per-view="4" :space-between="20">
@@ -37,8 +35,7 @@
     <div class="container section-testimoni mx-auto py-20">
       <div class="title-subtitle flex-col mb-16">
         <h1 class="font-bold text-4xl uppercase">testimoni</h1>
-        <h2 class="font-semibold text-lg capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-          eligendi?</h2>
+        <h2 class="font-semibold text-lg capitalize">pendapat mereka mengenai find ur smartphone</h2>
       </div>
       <div class="content-testimoni my-5">
         <swiper :slides-per-view="4" :space-between="5">
@@ -51,8 +48,7 @@
     <div class="container section-form-testimoni mx-auto py-20">
       <div class="title-subtitle flex-col mb-16">
         <h1 class="font-bold text-4xl uppercase">bagikan pengalamanmu</h1>
-        <h2 class="font-semibold text-lg capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-          eligendi?</h2>
+        <h2 class="font-semibold text-lg capitalize">punya pengalaman menarik dalam menggunakan find ur smartphone? tulis pengalaman kalian dibawah ini</h2>
       </div>
       <div class="content--form-testimoni my-5">
         <form class="space-y-5 text-left px-32" @submit="postTestimoni">
