@@ -151,6 +151,12 @@
           .then(() => alert('Testimoni Berhasil Ditambahkan'))
           .catch(err => alert(err));
         e.preventDefault();
+        axios.get('https://sleepy-sea-83124.herokuapp.com/api/testimoni', {
+        headers: {
+          'accept': 'application/json',
+          'Authorization': `Bearer ${this.token}`
+        }
+      }).then(res => (this.testimonis = res.data.data.data)).catch(err => console.error(err));
       }
     },
     created(){
