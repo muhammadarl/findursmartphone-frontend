@@ -10,7 +10,7 @@
         <div class="mx-auto my-10" v-for="smartphone in smartphones" v-bind:key="smartphone.id">
           <CardSmartphone :image_url="smartphone.image_url" :brand="smartphone.brand" :model="smartphone.model"
             :score="smartphone.score" :rating="smartphone.rating" :price="smartphone.original_price" :id="smartphone.id"
-            :memory="smartphone.memory" :storage="smartphone.storage" :color="smartphone.color" />
+            :memory="smartphone.memory" :specs="smartphone.specs" :storage="smartphone.storage" :color="smartphone.color" />
         </div>
       </div>
      

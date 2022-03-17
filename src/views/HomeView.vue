@@ -14,7 +14,7 @@
       <div class="content-recommendation my-5">
         <swiper :slides-per-view="4" :space-between="20">
             <swiper-slide v-for="recommendation in recommendations" v-bind:key="recommendation.id">
-              <CardSmartphone :image_url="recommendation.image_url" :color="recommendation.color" :brand="recommendation.brand" :model="recommendation.model" :score="recommendation.score" :rating="recommendation.rating" :id="recommendation.id" :price="recommendation.original_price" :memory="recommendation.memory" :storage="recommendation.storage"/>
+              <CardSmartphone :image_url="recommendation.image_url" :color="recommendation.color" :specs="recommendation.specs" :brand="recommendation.brand" :model="recommendation.model" :score="recommendation.score" :rating="recommendation.rating" :id="recommendation.id" :price="recommendation.original_price" :memory="recommendation.memory" :storage="recommendation.storage"/>
             </swiper-slide>
         </swiper>
       </div>
@@ -27,7 +27,7 @@
       <div class="content-trending my-5">
         <swiper :slides-per-view="4" :space-between="20">
             <swiper-slide v-for="trending in trendings" v-bind:key="trending.id">
-              <CardSmartphone :image_url="trending.image_url" :color="trending.color" :brand="trending.brand" :model="trending.model" :score="trending.score" :rating="trending.rating" :price="trending.original_price" :id="trending.id" :memory="trending.memory" :storage="trending.storage"/>
+              <CardSmartphone :image_url="trending.image_url" :color="trending.color" :specs="trending.specs" :brand="trending.brand" :model="trending.model" :score="trending.score" :rating="trending.rating" :price="trending.original_price" :id="trending.id" :memory="trending.memory" :storage="trending.storage"/>
             </swiper-slide>
         </swiper>
       </div>
