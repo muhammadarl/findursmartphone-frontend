@@ -12,7 +12,6 @@
                 <p class="bg-yellow-500 py-2 px-8 rounded text-gray-100 mr-2">{{score}}</p>
                 <p class="bg-green-800 py-2 px-8 rounded text-gray-200"><fa icon="star" /> {{rating}}</p>
             </div>
-            <p class="font-bold my-5">{{specs}}</p>
             <p class="font-bold my-5">Rp. {{price}}</p>
             <router-link :to="`/smartphones/${id}`" class="bg-orange-500 py-2 px-8 rounded text-gray-100">More <fa icon="arrow-right" /></router-link>
         </div>
@@ -32,7 +31,6 @@ export default {
             memory: Number,
             storage: Number,
             color: String,
-            specs: String,
         }
 }
 </script>
