@@ -9,7 +9,7 @@
             <p>{{memory}}GB/{{storage}}GB</p>
             <p class="font-bold text-gray-800">{{color}}</p>
             <div class="flex justify-center">
-                <p class="bg-yellow-500 py-2 px-8 rounded text-gray-100 mr-2">{{score}}</p>
+                <p class="bg-yellow-500 py-2 px-8 rounded text-gray-100 mr-2">Score :{{score}}</p>
                 <p class="bg-green-800 py-2 px-8 rounded text-gray-200"><fa icon="star" /> {{rating}}</p>
             </div>
             <p class="font-bold my-5">Rp. {{price}}</p>
